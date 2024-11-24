@@ -1,0 +1,47 @@
+.informacao {
+    padding: 16px 24px;
+    background-color: #fff;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+
+    &__info {
+        display: flex;
+        gap: 80px;
+        list-style: none;
+
+        &__item {
+            font-size: 12px;
+            color: #000;
+
+            & b {
+                color: #000;
+                font-size: 16px;
+                display: block;
+            }
+        }
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+
+        &__info {
+            display: block;
+
+            &__item {
+                margin-bottom: 20px;
+            }
+
+        }
+    }
+
+    @media (min-width: 640px) and (max-width: 1024px) {
+        padding: 16px 14px;
+
+        &__info {
+            gap: 40px;
+        }
+    }
+}

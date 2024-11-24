@@ -1,11 +1,20 @@
 @use 'hero';
+@use 'components/informacao';
+@use 'components/buttons';
+@use 'components/event';
+@use 'components/footer';
+@use 'components/anuncio';
+@use 'components/atracao';
+@use 'components/food';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     color: #fff;
+    list-style: none;
+    text-decoration: none;
 }
 
 .container {

@@ -1,15 +1,13 @@
 .hero {
     padding-top: 44px;
-    padding-bottom: 15%;
+    padding-bottom: 12%;
     background-image: url(../images/cake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 
-
     .container {
         position: relative;
-        text-align: center;
     }
 
     &::before {
@@ -27,14 +25,14 @@
         margin-top: 24px;
         padding-top: 60px;
         font-size: 56px;
-        font-weight: 800;
-
+        font-weight: 700;
+        text-align: center;
 
         &__sub {
-            margin-top: 10px;
+            margin-bottom: 30px;
             font-size: 46px;
             font-weight: 800;
-
+            text-align: center;
         }
     }
 
@@ -42,19 +40,24 @@
         padding-top: 64px;
         padding-bottom: 30%;
 
-
         &__text {
             margin: 10px;
-            padding-top: 40px;
-            font-size: 44px;
+            padding-top: 30px;
+            font-size: 34px;
             font-weight: 800;
 
             &__sub {
-                margin: 10px;
-                font-size: 34px;
+                margin: 10px 30px;
+                font-size: 30px;
                 font-weight: 700;
             }
         }
+    }
+
+    @media (max-width: 1024px) {
+        padding-top: 64px;
+        padding-bottom: 15%;
+
     }
 
 }
