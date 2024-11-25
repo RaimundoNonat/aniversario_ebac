@@ -63,7 +63,7 @@
         }
     }
 
-    @media (min-width: 640px) and (max-width: 640px) {
+    @media (min-width: 640px) and (max-width: 1024px) {
         padding: 60px 0px;
 
         &__title {
@@ -75,7 +75,7 @@
         }
 
         &__container {
-            display: block;
+            display: flex;
             text-align: center;
         }
 
