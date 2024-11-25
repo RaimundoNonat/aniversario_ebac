@@ -53,6 +53,15 @@
 
         &__description {
             margin-top: 20px;
+
+            & p {
+                font-family: variaveis.$fonteSecundaria;
+                line-height: 40px;
+                letter-spacing: 5px;
+                font-size: 22px;
+                font-weight: 500;
+            }
         }
+
     }
 }

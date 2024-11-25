@@ -24,15 +24,14 @@
 
             & a {
                 text-decoration: none;
-                margin: 20px;
-                color: rgb(26, 58, 146);
+                margin: 10px;
+                color: #fff;
+                padding: 12px 20px;
+                background-color: rgb(231, 95, 16);
                 border: 1px solid transparent;
+                border-radius: 15px;
                 transition-duration: 0.3s;
-                font-weight: bold;
-
-                &:hover {
-                    transform: scale(1.02);
-                }
+                font-size: 14px;
             }
         }
     }
@@ -58,10 +57,16 @@
                 padding: 0 auto;
 
                 & a {
-                    display: block;
-                    line-height: 24px;
                     text-decoration: none;
-
+                    display: block;
+                    margin: 10px;
+                    color: #fff;
+                    padding: 12px 20px;
+                    background-color: rgb(231, 95, 16);
+                    border: 1px solid transparent;
+                    border-radius: 15px;
+                    transition-duration: 0.3s;
+                    font-size: 14px;
                 }
             }
         }
@@ -84,8 +89,15 @@
 
                 & a {
                     display: block;
-                    line-height: 24px;
                     text-decoration: none;
+                    margin: 10px;
+                    color: #fff;
+                    padding: 12px 20px;
+                    background-color: rgb(231, 95, 16);
+                    border: 1px solid transparent;
+                    border-radius: 15px;
+                    transition-duration: 0.3s;
+                    font-size: 14px;
                 }
             }
         }
@@ -97,4 +109,22 @@
         }
     }
 
+    @media (min-width: 1024px) and (max-width: 1280px) {
+        &__compre__canais {
+            padding: 0 10px;
+
+            & a {
+                display: block;
+                text-decoration: none;
+                margin-top: 10px;
+                color: #fff;
+                padding: 12px 20px;
+                background-color: rgb(231, 95, 16);
+                border: 1px solid transparent;
+                border-radius: 15px;
+                transition-duration: 0.3s;
+
+            }
+        }
+    }
 }
